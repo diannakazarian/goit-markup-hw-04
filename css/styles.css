@@ -309,6 +309,9 @@ body {
 .icons-link:focus {
   background-color: #404bbf;
 }
+.iconsteam {
+  fill: #f4f4fd;
+}
 /* <!-- Our portfolio-- --> */
 
 .team-text,
