@@ -374,7 +374,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  padding: 42px 32px 0;
+  padding: 42px 32px;
 }
 .overflow-portfolio-wrapper:hover .overflow-portfolio {
   transform: translateY(0%);
