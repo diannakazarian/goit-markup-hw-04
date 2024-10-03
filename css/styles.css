@@ -382,6 +382,10 @@ body {
 /* footer */
 
 .page-footer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
   background: #2e2f42;
   padding: 100px 0;
 }
@@ -399,6 +403,8 @@ body {
 }
 .footer-icons {
   display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 .footer-icons-text {
   font-weight: 500;
@@ -406,4 +412,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+}
+.icons-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.iconfooter:hover,
+.iconfooter:focus {
+  background-color: #31d0aa;
 }
