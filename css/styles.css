@@ -384,7 +384,7 @@ body {
 /* footer */
 
 .page-footer {
-  display: flex;
+  /* display: flex; */
 
   justify-content: space-between;
   align-items: center;
@@ -404,9 +404,8 @@ body {
   margin-bottom: 16px;
 }
 .footer-icons {
-  display: flex;
+  display: block;
   align-items: baseline;
-  margin-right: 120px;
 }
 .footer-icons-text {
   font-weight: 500;
@@ -422,4 +421,10 @@ body {
 .iconfooter:hover,
 .iconfooter:focus {
   background-color: #31d0aa;
+}
+.container-footer-icons {
+  display: flex;
+}
+.div-one {
+  margin-right: 120px;
 }
