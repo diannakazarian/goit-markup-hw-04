@@ -151,11 +151,13 @@ body {
   border-radius: 2px;
   background: #404bbf;
 }
+.header-section {
+  margin: 0 auto;
+}
 
 /*  section hero --> */
 
 .main {
-  /* background-color: #2e2f42; */
   padding: 188px 0;
   max-width: 1440px;
   background-image: linear-gradient(
